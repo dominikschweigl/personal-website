@@ -1,5 +1,5 @@
 {
-  "name": "mantine-minimal-next-template",
+  "name": "personal-website",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,22 +9,21 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@mantine/core": "7.3.2",
-    "@mantine/hooks": "7.3.2",
-    "next": "14.0.1",
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "@fortawesome/fontawesome-svg-core": "^6.5.1",
+    "@fortawesome/free-brands-svg-icons": "^6.5.1",
+    "@fortawesome/free-regular-svg-icons": "^6.5.1",
+    "@fortawesome/free-solid-svg-icons": "^6.5.1",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@mantine/core": "^7.3.2",
+    "@mantine/hooks": "^7.3.2",
+    "framer-motion": "^10.16.16",
+    "next": "14.0.4",
+    "react": "^18",
+    "react-dom": "^18",
+    "uuid": "^9.0.1"
   },
   "devDependencies": {
-    "@types/node": "20.8.10",
-    "@types/react": "18.2.35",
-    "@types/react-dom": "18.2.14",
-    "eslint": "8.53.0",
-    "eslint-config-next": "14.0.1",
-    "postcss": "^8.4.31",
-    "postcss-preset-mantine": "1.12.0",
-    "postcss-simple-vars": "^7.0.1",
-    "typescript": "5.2.2"
-  },
-  "packageManager": "yarn@4.0.1"
+    "eslint": "^8",
+    "eslint-config-next": "14.0.4"
+  }
 }
